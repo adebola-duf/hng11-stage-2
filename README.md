@@ -1,16 +1,52 @@
-# myapp
+# Timbu Product Listing App
 
-A new Flutter project.
+This Flutter application lists products hosted on Timbu Cloud, retrieves them via an API, and displays them in a list. This project was developed as part of an HNG internship task for stage 2.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- List products from Timbu Cloud
+- Retrieve product data through an API
+- Display product details in a Grid view
 
-A few resources to get you started if this is your first Flutter project:
+## Appetize Demo
+[Demo Link](https://appetize.io/app/android/com.example.myapp?device=pixel7&osVersion=13.0)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Download Link
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots
+![ss1](assets/screenshots/ss1.png)
+![ss2](assets/screenshots/ss2.png)
+
+## Instructions to Set Up
+
+**Installation:**
+
+1. **Ensure you have Flutter SDK installed on your machine. If not, refer to the official Flutter documentation for installation instructions: [Flutter Documentation](https://flutter.dev/docs/get-started/install)**
+
+
+2. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/adebola-duf/hng11-stage-2.git
+   ```
+
+3. **Navigate to project directory**
+    ```bash
+    cd hng11-stage-2
+    ```
+4. **Install dependencies using Flutter:**
+    ```bash
+    flutter pub get
+    ```
+
+5. **Run the app on an emulator or a physical device:**
+    ```bash
+    flutter run
+    ```
+## Dependencies
+- [http](https://pub.dev/packages/http): For making HTTP requests
+## Attribution
+
+1. **The no-internet.png used ![no-internet.png](assets/images/no-internet.png)
+<a href="https://www.freepik.com/icon/no-wifi_11318828#fromView=keyword&page=1&position=33&uuid=e73afd13-53b8-4c70-95bf-24bbd7876808">Icon by molmedia</a>**
